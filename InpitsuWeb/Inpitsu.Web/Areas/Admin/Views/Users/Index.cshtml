@@ -1,0 +1,109 @@
+﻿@using Inpitsu.Data.DtoObjects
+@using Microsoft.AspNetCore.Identity;
+@using Inpitsu.Data.Models;
+@model IEnumerable<UserWithRolesDto>
+@{
+    ViewData["Title"] = "Users";
+}
+
+<style>
+    .inputPag:hover {
+        background: #D6EAF8; /* Цвет фона под ссылкой */
+        cursor: pointer;
+    }
+</style>
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+        <h3>Пользователи</h3>
+
+        <div class="card">
+            <div class="card-body">
+                <div style="display:flex; width:100%; justify-content: space-between;">
+
+                    <div style="width: 20%;" class="mb-2"><a class="btn bg-gradient-success w-100 mb-0 toast-btn" asp-controller="Users" asp-action="Create">Добавить запись</a></div>
+                </div>
+                <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">
+                        <table class="table table-bordered table-hover m-0">
+                            <thead style=" position: sticky; top:-1px; z-index:500; background-color:#454d55;">
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Логин</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Телефон</th>
+                                <th scope="col">Должность</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
+                                <th scope="col">Блокировка</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th scope="row">@item.Id</th>
+                                    <td>@item.UserName</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.PhoneNumber</td>
+                                    <td>
+                                        @foreach (var role in item.IdentityRoles)
+                                        {
+
+                                            @role <br />
+
+                                        }
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-link text-dark px-3 mb-0" asp-controller="Users" asp-action="EditUser" asp-route-id="@item.Id">
+                                            <i class="material-icons text-sm me-2"></i>
+                                            Редактировать
+                                        </a>
+
+                                    </td>
+                                    <td>
+                                        <a class="btn btn-link text-dark px-3 mb-0" asp-controller="Users" asp-action="EditRole" asp-route-id="@item.Id">
+                                            <i class="material-icons text-sm me-2"></i>
+                                            Права доступа
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <form role="form" class="text-start" method="post" asp-controller="Users" asp-action="Delete" id="UserDelete_@item.Id">
+                                            <div class="form-check form-switch" style="display: flex;
+                justify-content: center;">
+                                                <input class="form-check-input input_@item.Id" type="checkbox" id="flexSwitchCheckDefault" checked="@item.Locked"
+                                                   onclick="
+                    if($('.input_@item.Id').is(':checked')){
+                        $('#Locked_@item.Id').val('true');
+                        $('#UserDelete_@item.Id').submit();
+                    }
+                    else{
+                        $('#Locked_@item.Id').val('false');
+                        $('#UserDelete_@item.Id').submit();
+                    }
+                " />
+                                                <input type="hidden" id="UserId_@item.Id" name="Id" value="@item.Id" />
+                                                <input type="hidden" id="Locked_@item.Id" name="Locked" value='@(item.Locked ? true : false)' />
+                                            </div>
+                                        </form>
+                                    </td>
+
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

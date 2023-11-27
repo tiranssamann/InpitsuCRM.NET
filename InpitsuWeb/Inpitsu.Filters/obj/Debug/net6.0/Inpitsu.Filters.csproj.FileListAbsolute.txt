@@ -1,0 +1,24 @@
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.deps.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\ref\Inpitsu.Filters.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.csproj.AssemblyReference.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.AssemblyInfoInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.AssemblyInfo.cs
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.csproj.CoreCompileInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\ref\Inpitsu.Filters.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.deps.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\bin\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.csproj.AssemblyReference.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.AssemblyInfoInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.AssemblyInfo.cs
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.csproj.CoreCompileInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\refint\Inpitsu.Filters.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Filters\obj\Debug\net6.0\ref\Inpitsu.Filters.dll

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Inpitsu.Data.Models.ComingDrug>
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Приходы</h3>
+
+<div class="card">
+  <div class="card-body">
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d; position: sticky; top:-1px; z-index:500;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Наименование</th>
+          <th scope="col">Поставщик</th>
+          <th scope="col">Действия</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            @foreach(var item in Model){
+            <tr>
+              <th scope="row">@item.ID</th>
+              <td>@item.NameOfComing</td>
+              <td>@item.Contragent.Name</td>
+              <td><a asp-controller="Drugs" asp-action="GetComingDrug" asp-route-Id="@item.ID">Просмотр</a></td>
+            </tr>
+            }
+         
+                            
+      </tbody>
+</table>
+  </div>
+
+  </div>
+</div>
+</div>
+</section>

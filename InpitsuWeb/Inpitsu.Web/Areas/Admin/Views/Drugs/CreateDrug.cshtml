@@ -1,0 +1,63 @@
+﻿@model Inpitsu.Web.ViewModels.ComingDrugCreate
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Приход @Model.NameOfComing</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+      <form role="form" class="text-start" method="post">
+
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+  <table class="tasks-entry form">
+    
+        <tr>
+            <th scope="col">Наименование</th>
+            <td><input type="text" class="form-control"  name="NameOfDrug">
+                <input type="hidden" class="form-control"  name="Id" value="@Model.Id" readonly>
+            </td>
+
+        </tr>
+        <tr>
+            <th scope="col">Цена</th>
+            <td><input type="text" class="form-control"  name="ComingPrice"></td>
+
+        </tr>
+        <tr>
+           
+            <th scope="col">Количество</th>
+            <td><input type="text" class="form-control"  name="Counts"></td>
+        </tr>
+        <tr>
+            <th scope="col">Производитель</th>
+            <td><input type="text" class="form-control"  name="Creator"></td>
+        </tr>
+        <tr>
+
+            <th><label class="form-label">Действия:</label></th>
+                  <td>
+                      <button class="btn bg-gradient-success toast-btn" asp-controller="Drugs" asp-action="CreateDrug" >Сохранить</button>
+                  </td>
+        </tr>
+     
+</table>
+  </div>
+          
+  
+               
+      </form>
+  </div>
+</div>
+</div>
+</section>

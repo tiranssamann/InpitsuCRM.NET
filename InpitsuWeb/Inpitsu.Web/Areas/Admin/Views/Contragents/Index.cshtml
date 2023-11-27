@@ -1,0 +1,205 @@
+﻿@model IEnumerable<Inpitsu.Data.DtoObjects.ContragentDto>
+
+@{
+    ViewData["Title"] = "Contragents";
+}
+<style>
+    .inputPag:hover {
+        background: #D6EAF8;  /* Цвет фона под ссылкой */
+        cursor: pointer;
+       }
+</style>
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+        <h3>Контрагенты</h3>
+
+        <div class="card">
+            <div class="card-body">
+                <div style="display:flex; width:100%; justify-content: space-between;">
+                    <div style="width: 20%;" class="mb-2"><a class="btn bg-gradient-success w-100 mb-0 toast-btn" asp-controller="Contragents" asp-action="AddContragent">Добавить Клиента</a></div>
+                    <div>
+                        <form role="form" class="text-start" method="get" asp-controller="Contragents" asp-action="Index" id="ContragentPagination">
+                            <div class="input-group input-group-outline mb-3">
+                                <label for="formType" style="margin: 10px">Кол-во:</label>
+                                <select class="form-control selectpicker" data-style="btn btn-link" aria-label="Default select example" id="PageSize" name="PageSize"
+                                        style="
+                    width: 70px !important;
+                    height: 35px;
+                    flex: none;"
+                                        onchange='$("#ContragentPages").val("1"); $( "#ContragentPagination" ).submit();'>
+                                    <option value="" selected disabled hidden>@ViewData["PaginationPageSize"]</option>
+                                    <option value=10>10</option>
+                                    <option value=15>15</option>
+                                    <option value=20>20</option>
+                                    <option value=30>30</option>
+                                    <option value=40>40</option>
+                                    <option value=50>50</option>
+                                    <option value=60>60</option>
+                                    <option value=70>70</option>
+                                    <option value=80>80</option>
+                                    <option value=90>90</option>
+                                    <option value=100>100</option>
+                                </select>
+
+                                <label for="FormsCount" style="margin: 10px">Найдено записей:</label>
+                                <span class="input" role="textbox"
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px; " readonly>
+                                    @ViewData["contragentCount"]
+                                </span>
+
+                                <label for="FormPages" style="margin: 10px">Страницы:</label>
+                                @{
+                                    int pageCount = (int)Math.Ceiling(double.Parse(ViewData["contragentCount"].ToString()) / int.Parse(ViewData["PaginationPageSize"].ToString()));
+                                    int nextPage = int.Parse(string.Format("{0}", ViewData["PaginationPageNumber"])) + 1;
+                                    if (nextPage >= pageCount) nextPage = pageCount;
+                                    int previousPage = int.Parse(string.Format("{0}", ViewData["PaginationPageNumber"])) - 1;
+                                    if (previousPage <= 0) previousPage = 1;
+                                    int pageNumber = int.Parse(string.Format("{0}", ViewData["PaginationPageNumber"]));
+                                }
+                                <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("1");  $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+                                    <strong style="margin-top:7px !important;">
+                                        <a style="color:#2980B9;padding-top:9px !important;">First</a>
+                                    </strong>
+                                </span>
+                                @if (pageNumber > 3)
+                                {
+                                    <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("@(pageNumber - 3)");  $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+
+                                        <a>
+                                            ...
+                                        </a>
+                                    </span>
+                                }
+                                @if (pageNumber != previousPage)
+                                {
+                                    <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("@previousPage");  $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+
+                                        <a>
+                                            @previousPage
+                                        </a>
+                                    </span>
+                                }
+                                <span class="inputPag" role="textbox"
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+
+                                    <strong style="margin-top:7px !important; color:#2980B9;">
+                                        @ViewData["PaginationPageNumber"]
+                                    </strong>
+                                </span>
+                                <input type="hidden" readonly name="PageNumber" id="ContragentPages" class="form-control" value="@ViewData["PaginationPageNumber"]"
+                                       style=" width: 35px !important; height: 35px; flex: none;" />
+                                @if (pageNumber != nextPage)
+                                {
+                                    <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("@nextPage"); $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px; " readonly>
+
+                                        <a>
+                                            @nextPage
+                                        </a>
+                                    </span>
+                                }
+                                @if (pageNumber < pageCount - 2)
+                                {
+                                    <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("@(pageNumber + 3)");  $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+
+                                        <a>
+                                            ...
+                                        </a>
+                                    </span>
+                                }
+                                <span class="inputPag" role="textbox" onclick='$("#ContragentPages").val("@pageCount");  $("#PageSize").val("@ViewData["PaginationPageSize"]"); $( "#ContragentPagination" ).submit();'
+                                      style="border: 1px solid #ccc;font-family: inherit;font-size: inherit;padding:6px;height: 35px;" readonly>
+                                    <strong style="margin-top:7px !important;">
+                                        <a style="color:#2980B9;padding-top:9px !important;">Last</a>
+                                    </strong>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+           
+
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover m-0">
+                    <thead style=" position: sticky; top:-1px; z-index:500;">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Название</th>
+                            <th scope="col">Inn</th>
+                            <th scope="col">Адрес</th>
+                            <th scope="col">Описание</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Контакт</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <th scope="row"><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Id</a></th>
+                                <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Name</a></td>
+                                <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Inn</a></td>
+                                <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Address</a></td>
+                                <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Description</a></td>
+                                <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Email</a></td>
+                                    <td><a asp-controller="Contragents" asp-action="Details" asp-route-id="@item.Id">@item.Contact</a></td>
+                            </tr>
+                            
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+         </div>
+    </div>
+</section>
+@section scripts
+{
+<script type="text/javascript">
+     var deleteConfirm = function (val,val2) {
+         $('#deletedValueName').text(val);
+         $('#id').text(val2);
+         $('#delete-conformation').modal('show');
+     }
+     //call this function after click on confirm delete button
+     var deleteData = function () {
+     $('#divLoading').show();
+     var id = $('#id').text();
+     $.ajax({
+         type: "POST",
+         url: '@Url.Action("DeleteProcess","Processes", new { Area = "Admin" })',
+         data:{id: id},
+         success: function (result) {
+            $("#delete-conformation").modal('hide');
+            location.reload();
+         },
+         error: function () {
+             $("#delete-conformation").modal('show');
+         }
+     });
+
+    }
+    var HideModalDelete = function (){
+        $("#delete-conformation").modal('hide');
+    }
+
+</script>
+}

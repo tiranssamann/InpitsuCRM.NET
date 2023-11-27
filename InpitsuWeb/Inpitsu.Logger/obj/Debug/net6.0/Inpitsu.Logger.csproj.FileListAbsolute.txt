@@ -1,0 +1,24 @@
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.deps.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\ref\Inpitsu.Logger.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.csproj.AssemblyReference.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.AssemblyInfoInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.AssemblyInfo.cs
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.csproj.CoreCompileInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\ref\Inpitsu.Logger.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.deps.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\bin\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.csproj.AssemblyReference.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.AssemblyInfoInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.AssemblyInfo.cs
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.csproj.CoreCompileInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\refint\Inpitsu.Logger.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Logger\obj\Debug\net6.0\ref\Inpitsu.Logger.dll

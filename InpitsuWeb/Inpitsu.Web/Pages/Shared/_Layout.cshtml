@@ -1,0 +1,240 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Inpitsu.Data.Models
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Inpitsu.Web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Inpitsu.Web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="~/plugins/fontawesome-free/css/all.min.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="~/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/adminlte.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    <header>
+        <div class="wrapper">
+            <nav class="main-header navbar navbar-expand navbar-dark">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                   
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Navbar Search -->
+                        <li class="nav-item">
+                            <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <div class="navbar-search-block">
+                                <form class="form-inline">
+                                    <div class="input-group input-group-sm">
+                                        <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-navbar" type="submit">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                            <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                                                <i class="fas fa-times"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+
+
+            </nav>
+            <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                <!-- Brand Logo -->
+                <a asp-area="" asp-page="/Index" class="brand-link">
+                    <img src="~/icons/MainIcon.ico" alt="Inpitsu CRM Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                    <span class="brand-text font-weight-light">Inpitsu CRM</span>
+                </a>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <!-- Sidebar user panel (optional) -->
+                        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                            <div class="image">
+                                <img src="~/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                            </div>
+                            <div class="info">
+                                <a class="d-block" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity?.Name</a>
+                            </div>
+                        </div>
+                    }
+                   
+                    <nav class="mt-2">
+                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                            <!-- Add icons to the links using the .nav-icon class
+                                 with font-awesome or any other icon font library -->
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Contragents" asp-action="Index" class="nav-link">
+                                    <i class="nav-icon fas fa-book"></i>
+                                    <p>
+                                        Контрагенты
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Users" asp-action="Index" class="nav-link">
+                                    <i class="nav-icon fas fa-th"></i>
+                                    <p>
+                                        Компания
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Roles" asp-action="Index" class="nav-link">
+                                    <i class="nav-icon fas fa-th"></i>
+                                    <p>
+                                        Роли
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Boards" asp-action="All" class="nav-link">
+                                    <i class="nav-icon fas fa-columns"></i>
+                                    <p>
+                                        Задачи
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Tasks" asp-action="Search" class="nav-link">
+                                    <i class="nav-icon fas fa-edit"></i>
+                                    <p>
+                                        Поиск по задачам
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Boards" asp-action="GetAllBoards" class="nav-link">
+                                    <i class="nav-icon fas fa-th"></i>
+                                    <p>
+                                        Настройка борды
+
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a asp-area="Admin" asp-controller="Chat" asp-action="Index" class="nav-link">
+                                    <i class="nav-icon far fa-envelope"></i>
+                                    <p>
+                                        Корпоративный чат
+
+                                    </p>
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="nav-icon fas fa-copy"></i>
+                                    <p>
+                                        Работа с товарами
+                                        <i class="right fas fa-angle-left"></i>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview" style="display: none;">
+                                    <li class="nav-item">
+                                        <a asp-area="Admin" asp-controller="Drugs" asp-action="CreateComing" class="nav-link">
+                                            <i class="nav-icon fas fa-th"></i>
+                                            <p>
+                                                Оформить приход товара
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="Admin" asp-controller="Drugs" asp-action="GetAllDrugs" class="nav-link">
+                                            <i class="nav-icon fas fa-th"></i>
+                                            <p>
+                                                Товары
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="Admin" asp-controller="Drugs" asp-action="GetAllComings" class="nav-link">
+                                            <i class="nav-icon fas fa-th"></i>
+                                            <p>
+                                                Приходы
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="Admin" asp-controller="Drugs" asp-action="CreateReleaseDrugs" class="nav-link">
+                                            <i class="nav-icon fas fa-th"></i>
+                                            <p>
+                                                Реализация товара
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a asp-area="Admin" asp-controller="Drugs" asp-action="GetAllReleaseDrugs" class="nav-link">
+                                            <i class="nav-icon fas fa-th"></i>
+                                            <p>
+                                                Просмотр продаж
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        </div>
+    </header>
+    <div class="content-wrapper mb-5">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <strong>&copy; 2022  - Inpitsu.Web <a asp-area="" asp-page="/Privacy">Privacy</a></strong>
+        All rights reserved.
+        <div class="float-right d-none d-sm-inline-block">
+            <b>Version</b> 3.2.0
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- overlayScrollbars -->
+    <script src="~/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.js"></script>
+
+    <!-- PAGE PLUGINS -->
+    <!-- jQuery Mapael -->
+    <script src="~/plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="~/plugins/raphael/raphael.min.js"></script>
+    <script src="~/plugins/jquery-mapael/jquery.mapael.min.js"></script>
+    <script src="~/plugins/jquery-mapael/maps/usa_states.min.js"></script>
+    <!-- ChartJS -->
+    <script src="~/plugins/chart.js/Chart.min.js"></script>
+
+    <!-- AdminLTE for demo purposes -->
+    <script src="~/dist/js/demo.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="~/dist/js/pages/dashboard2.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

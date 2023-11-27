@@ -1,0 +1,46 @@
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.deps.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.runtimeconfig.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\ref\Inpitsu.Servises.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.AssemblyReference.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.AssemblyInfoInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.AssemblyInfo.cs
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.CoreCompileInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\ref\Inpitsu.Servises.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.genruntimeconfig.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Repositories.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Repositories.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.CopyComplete
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.deps.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.runtimeconfig.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Servises.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Filters.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Logger.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Repositories.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Filters.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Logger.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\bin\Debug\net6.0\Inpitsu.Repositories.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.AssemblyReference.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.AssemblyInfoInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.AssemblyInfo.cs
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.CoreCompileInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.csproj.CopyComplete
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\refint\Inpitsu.Servises.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\Inpitsu.Servises.genruntimeconfig.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Servises\obj\Debug\net6.0\ref\Inpitsu.Servises.dll

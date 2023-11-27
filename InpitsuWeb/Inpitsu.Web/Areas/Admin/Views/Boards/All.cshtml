@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Inpitsu.Web.ViewModels.BoardViewModel>
+
+@{
+    ViewData["Title"] = "Task Board";
+}
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3>Задачи</h3>
+
+
+<div class="card">
+  <div class="card-body">
+      <div style="display:flex; width:100%; justify-content: space-between;">
+          
+          <div style="width: 20%;" class="mb-2"><a class="btn bg-gradient-success w-100 mb-0 toast-btn"  asp-controller="Tasks" asp-action="Create">Добавить задачу</a></div>
+      </div>
+<div class="tasks-grid">
+    @if (!Model.Any())
+    {
+        <h3 class="text-center">Нет задач в борде!</h3>
+    }
+    else
+    {
+        @foreach (var board in Model)
+        {
+            <div class="task">
+                <h1>@board.Name</h1>
+                @if (board.Tasks.Any())
+                {
+                    @await Html.PartialAsync("~/Areas/Admin/Views/Boards/_TaskPartial.cshtml", board.Tasks)
+                }
+            </div>
+        }
+    }
+</div>
+</div>
+</div>
+</div>
+</section>

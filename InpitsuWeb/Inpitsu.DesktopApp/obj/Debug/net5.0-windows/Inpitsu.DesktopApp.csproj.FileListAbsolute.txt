@@ -1,0 +1,48 @@
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.AssemblyReference.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormConnect.resources
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormCreateTask.resources
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormLogin.resources
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormRegister.resources
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormTaskBoard.resources
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.GenerateResource.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.AssemblyInfoInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.AssemblyInfo.cs
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.exe
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.deps.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.runtimeconfig.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.runtimeconfig.dev.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\RestSharp.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.CopyComplete
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\refint\Inpitsu.DesktopApp.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.genruntimeconfig.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\ref\Inpitsu.DesktopApp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.exe
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.deps.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.runtimeconfig.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.runtimeconfig.dev.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\ref\Inpitsu.DesktopApp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\Inpitsu.DesktopApp.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\bin\Debug\net5.0-windows\RestSharp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.AssemblyReference.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormConnect.resources
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormCreateTask.resources
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormLogin.resources
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormRegister.resources
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.FormTaskBoard.resources
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.GenerateResource.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.AssemblyInfoInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.AssemblyInfo.cs
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.csproj.CopyComplete
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\ref\Inpitsu.DesktopApp.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.DesktopApp\obj\Debug\net5.0-windows\Inpitsu.DesktopApp.genruntimeconfig.cache

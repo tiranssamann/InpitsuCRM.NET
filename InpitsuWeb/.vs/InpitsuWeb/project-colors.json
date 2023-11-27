@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0d09e3f2-245a-4f9e-a26f-40cde4d3e2e3": {
+      "ProjectGuid": "0d09e3f2-245a-4f9e-a26f-40cde4d3e2e3",
+      "DisplayName": "InpitsuWeb",
+      "ColorIndex": 0
+    },
+    "11017fbb-7bee-4035-aed5-fbefac14331b": {
+      "ProjectGuid": "11017fbb-7bee-4035-aed5-fbefac14331b",
+      "DisplayName": "InpitsuDekstop",
+      "ColorIndex": 1
+    },
+    "9c831ee9-695d-40a7-8dd2-da2f09de98ce": {
+      "ProjectGuid": "9c831ee9-695d-40a7-8dd2-da2f09de98ce",
+      "DisplayName": "WpfBrowserApp1",
+      "ColorIndex": 2
+    },
+    "49ffee67-0744-43c6-83f9-05cc21faf3fe": {
+      "ProjectGuid": "49ffee67-0744-43c6-83f9-05cc21faf3fe",
+      "DisplayName": "Inpitsu.Desktop",
+      "ColorIndex": 3
+    },
+    "e93da196-fb52-49d6-a0f5-812d5036ed98": {
+      "ProjectGuid": "e93da196-fb52-49d6-a0f5-812d5036ed98",
+      "DisplayName": "Inpitsu.Desktop",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "20aee91c-1da8-44da-acc9-b8d0e0b09919": {
+      "ProjectGuid": "20aee91c-1da8-44da-acc9-b8d0e0b09919",
+      "DisplayName": "Inpitsu.Desktop",
+      "ColorIndex": 5
+    },
+    "ae002501-5f80-4ffa-8627-ba49ac579194": {
+      "ProjectGuid": "ae002501-5f80-4ffa-8627-ba49ac579194",
+      "DisplayName": "Inpitsu.Desktop.Core",
+      "ColorIndex": 6
+    },
+    "81e23e6d-0317-46ba-9013-d4d5459bb5d4": {
+      "ProjectGuid": "81e23e6d-0317-46ba-9013-d4d5459bb5d4",
+      "DisplayName": "Inpitsu.Desktop (Package)",
+      "ColorIndex": 7
+    },
+    "bd86a680-d9b2-4393-a356-6a263999352b": {
+      "ProjectGuid": "bd86a680-d9b2-4393-a356-6a263999352b",
+      "DisplayName": "Inpitsu.Desktop",
+      "ColorIndex": 8
+    },
+    "8d8ca498-c383-4065-b4ba-514a59c73024": {
+      "ProjectGuid": "8d8ca498-c383-4065-b4ba-514a59c73024",
+      "DisplayName": "desk",
+      "ColorIndex": 9
+    },
+    "2b20d27d-5a02-4d1c-988f-9577a862dd17": {
+      "ProjectGuid": "2b20d27d-5a02-4d1c-988f-9577a862dd17",
+      "DisplayName": "Inpitsu.Data",
+      "ColorIndex": 10
+    },
+    "daf84cea-ee4f-43d3-86c8-5ca89ebd1f9b": {
+      "ProjectGuid": "daf84cea-ee4f-43d3-86c8-5ca89ebd1f9b",
+      "DisplayName": "Inpitsu.Repositories",
+      "ColorIndex": 11
+    },
+    "2c2bc323-a390-4d41-83d9-d4651624702d": {
+      "ProjectGuid": "2c2bc323-a390-4d41-83d9-d4651624702d",
+      "DisplayName": "Inpitsu.Servises",
+      "ColorIndex": 12
+    },
+    "17d12993-b5c1-470f-8467-9ef6875df05c": {
+      "ProjectGuid": "17d12993-b5c1-470f-8467-9ef6875df05c",
+      "DisplayName": "Inpitsu.Data",
+      "ColorIndex": 13
+    },
+    "5886a6d2-0a0b-43d4-82e8-8493a3585a32": {
+      "ProjectGuid": "5886a6d2-0a0b-43d4-82e8-8493a3585a32",
+      "DisplayName": "Inpitsu.Desktop",
+      "ColorIndex": 14
+    },
+    "a0348c5f-1325-4914-b820-d6d1e6109be7": {
+      "ProjectGuid": "a0348c5f-1325-4914-b820-d6d1e6109be7",
+      "DisplayName": "Inpitsu.Servises",
+      "ColorIndex": 15
+    },
+    "c443e306-84b8-467b-bf20-e1f9b1dae630": {
+      "ProjectGuid": "c443e306-84b8-467b-bf20-e1f9b1dae630",
+      "DisplayName": "Inpitsu.Repositories",
+      "ColorIndex": 0
+    },
+    "5d92f4c1-be7a-4fb9-a1b8-b9d84284d2c5": {
+      "ProjectGuid": "5d92f4c1-be7a-4fb9-a1b8-b9d84284d2c5",
+      "DisplayName": "Inpitsu.Web",
+      "ColorIndex": 1
+    },
+    "b0872e93-4d3e-423f-8d15-d0957191cfbb": {
+      "ProjectGuid": "b0872e93-4d3e-423f-8d15-d0957191cfbb",
+      "DisplayName": "Inpitsu.Filters",
+      "ColorIndex": 2
+    },
+    "4ea383cf-a244-4619-8b79-6f4b5c86a5b3": {
+      "ProjectGuid": "4ea383cf-a244-4619-8b79-6f4b5c86a5b3",
+      "DisplayName": "Inpitsu.Logger",
+      "ColorIndex": 3
+    },
+    "73644db3-e686-479c-8e5e-2ecaa97967a7": {
+      "ProjectGuid": "73644db3-e686-479c-8e5e-2ecaa97967a7",
+      "DisplayName": "Inpitsu.Mobile",
+      "ColorIndex": 4
+    },
+    "507ea44f-a526-482e-b436-0180f48273c8": {
+      "ProjectGuid": "507ea44f-a526-482e-b436-0180f48273c8",
+      "DisplayName": "Inpitsu.Mobile.Android",
+      "ColorIndex": 5
+    },
+    "587d7eae-42d3-4a3d-a09b-b1e36d32d77d": {
+      "ProjectGuid": "587d7eae-42d3-4a3d-a09b-b1e36d32d77d",
+      "DisplayName": "Inpitsu.Web.React",
+      "ColorIndex": 6
+    },
+    "1d50b527-2ff4-47b1-8ee4-20029cc93902": {
+      "ProjectGuid": "1d50b527-2ff4-47b1-8ee4-20029cc93902",
+      "DisplayName": "Inpitsu.WebApi",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

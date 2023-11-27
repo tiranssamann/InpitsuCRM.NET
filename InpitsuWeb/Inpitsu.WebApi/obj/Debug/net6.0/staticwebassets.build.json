@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "M1lLgH2AOXKjCWPRGSfX1LSQ3VS+PXNDH48hZ01cS0Y=",
+  "Source": "Inpitsu.WebApi",
+  "BasePath": "_content/Inpitsu.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

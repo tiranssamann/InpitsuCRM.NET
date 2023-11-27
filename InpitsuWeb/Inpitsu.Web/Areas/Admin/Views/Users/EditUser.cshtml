@@ -1,0 +1,47 @@
+﻿@using Inpitsu.Data.Models
+@model User
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+        <h3>Редактирование Пользователя @Model.UserName</h3>
+
+        <div class="card">
+            <div class="card-body">
+                <form role="form" class="text-start" method="post">
+                    <div class="input-group input-group-outline my-3 focused is-focused">
+                        <input type="hidden" value="@Model.Id" name="Id">
+                        <label class="form-label">UserName:</label>
+                        <input type="text" class="form-control" name="UserName" value="@Model.UserName">
+                    </div>
+
+                    <div class="input-group input-group-outline my-3 focused is-focused">
+                        <label class="form-label">Email:</label>
+                        <input type="text" class="form-control" name="Email" value="@Model.Email">
+                    </div>
+                    <div class="input-group input-group-outline mb-3 focused is-focused">
+                        <label class="form-label">PhoneNumber</label>
+                        <input type="text" class="form-control" name="PhoneNumber" value="@Model.PhoneNumber">
+                    </div>
+                    <div style="display: flex;">
+                        <div style="width: 45%; margin: 5rem">
+                            <button class="btn bg-gradient-success w-100 toast-btn" asp-controller="Users" asp-action="Edit">Сохранить</button>
+                        </div>
+                        <div style="width: 45%; margin: 5rem">
+                            <button class="btn bg-gradient-danger w-100 toast-btn" asp-controller="Users" asp-action="Cansel">Отмена</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,88 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<main class="main-content mt-0 ps">
+    <div class="page-header align-items-start min-vh-100" style="background-image: url(https://imageup.ru/img16/4199725/black_anime_background.jpg);">
+        <span class="mask bg-gradient-dark opacity-6"></span>
+        <div class="container my-auto">
+            <div class="row">
+                <div class="col-lg-4 col-md-8 col-12 mx-auto">
+                    <div class="card z-index-0 fadeIn3 fadeInBottom dark-version">
+                        <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 dark-version">
+                            <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                                <h4 class="text-white font-weight-bolder text-center mt-0 mb-0"><span style="margin-top: -25px">Регистрация</span></h4>
+                            </div>
+                        </div>
+                        <div class="card-body dark-version">
+                            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="text-start">
+                                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                                <div class="input-group input-group-outline mb-3">
+                                    <div class="form-row" style="width: 100%">
+                                        <label>Почта: <br /></label>
+                                        <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="input-group input-group-outline mb-3">
+                                    <div class="form-row" style="width: 100%">
+                                        <label>Пароль: <br /></label>
+                                        <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="input-group input-group-outline mb-3">
+                                    <div class="form-row" style="width: 100%">
+                                        <label>Подтверждение: <br /></label>
+                                        <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+                                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button id="login-submit" type="submit" class="btn bg-gradient-primary w-100 my-4 mb-2">Готово</button>
+                                </div>
+                                @*<div class="col-md-6 col-md-offset-2">
+                                    <section>
+                                        <h3>Use another service to register.</h3>
+                                        <hr />
+                                        @{
+                                            if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                                            {
+                                                <div>
+                                                    <p>
+                                                        Подтверждение по email не работает)
+                                                    </p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                                                    <div>
+                                                        <p>
+                                                            @foreach (var provider in Model.ExternalLogins!)
+                                                            {
+                                                                <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                                            }
+                                                        </p>
+                                                    </div>
+                                                </form>
+                                            }
+                                        }
+                                    </section>
+                                </div>*@
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div>
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

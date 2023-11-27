@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Inpitsu.Web.ViewModels.TaskViewModel>
+
+@foreach (var task in Model)
+{
+    <table class="task-entry">
+        <tbody>
+            <tr class="title">
+                <th>Название</th>
+                <td>@task.Title</td>
+            </tr>
+            <tr class="description">
+                <th>Описание задачи</th>
+                <td>
+                    <div class="description">@task.Description</div>
+                </td>
+            </tr>
+            <tr class="description">
+                <th>Поставил задачу</th>
+                <td>
+                    <div class="description">@task.Owner</div>
+                </td>
+            </tr>
+            <tr class="description">
+                <th>Поставлена сотруднику</th>
+                <td>
+                    <div class="description">@task.Employee</div>
+                </td>
+            </tr>
+            <tr class="actions">
+                <th>Действия</th>
+                <td>
+                    <a asp-controller="Tasks" asp-action="Details" asp-route-id="@task.Id" class="btn btn-secondary mb-2">Посмотреть</a>
+                    <span></span>
+                    @if (this.User.Identity.Name == task.Owner)
+                    {
+                        <a asp-controller="Tasks" asp-action="Edit" asp-route-id="@task.Id" class="btn btn-secondary mb-2">Редактировать</a>
+                        <span></span>
+                        <a asp-controller="Tasks" asp-action="Delete" asp-route-id="@task.Id" class="btn btn-secondary mb-2">Удалить</a>
+                    }
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}

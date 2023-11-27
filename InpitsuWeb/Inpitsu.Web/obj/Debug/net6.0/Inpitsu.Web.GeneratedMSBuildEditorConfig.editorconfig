@@ -1,0 +1,224 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Inpitsu.Web
+build_property.RootNamespace = Inpitsu.Web
+build_property.ProjectDir = C:\Users\a.zakarin\Desktop\first — копия (9) — копия\InpitsuWeb\Inpitsu.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\a.zakarin\Desktop\first — копия (9) — копия\InpitsuWeb\Inpitsu.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Boards/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9hcmRzXEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Boards/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9hcmRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Boards/GetAllBoards.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9hcmRzXEdldEFsbEJvYXJkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Boards/_TaskPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9hcmRzXF9UYXNrUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Chat/Chats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhdFxDaGF0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Chat/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Contragents/AddContragent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udHJhZ2VudHNcQWRkQ29udHJhZ2VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Contragents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udHJhZ2VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Contragents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udHJhZ2VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Contragents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udHJhZ2VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/CreateComing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcQ3JlYXRlQ29taW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/CreateDrug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcQ3JlYXRlRHJ1Zy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/CreateReleaseDrugs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcQ3JlYXRlUmVsZWFzZURydWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/GetAllComings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcR2V0QWxsQ29taW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/GetAllDrugs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcR2V0QWxsRHJ1Z3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/GetAllReleaseDrugs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcR2V0QWxsUmVsZWFzZURydWdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/GetComingDrug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcR2V0Q29taW5nRHJ1Zy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/GetReleaseDrug.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcR2V0UmVsZWFzZURydWcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/ReleaseWithDrugs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcUmVsZWFzZVdpdGhEcnVncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Drugs/ShowComing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHJ1Z3NcU2hvd0NvbWluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/HandBooks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSGFuZEJvb2tzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Tasks/_TaskFormPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGFza3NcX1Rhc2tGb3JtUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Users/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcQ3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Users/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Users/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcRWRpdFVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Areas/Identity/Pages/Account/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-fy2lbuc818
+
+[C:/Users/a.zakarin/Desktop/first — копия (9) — копия/InpitsuWeb/Inpitsu.Web/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ipebujizzz

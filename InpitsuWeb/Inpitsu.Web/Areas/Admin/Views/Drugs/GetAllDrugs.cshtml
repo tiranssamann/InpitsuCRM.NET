@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Inpitsu.Data.Models.Drug>
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Товары</h3>
+
+<div class="card">
+  <div class="card-body">
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d; position: sticky; top:-1px; z-index:500;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Наименование</th>
+          <th scope="col">Цена</th>
+          <th scope="col">Количество</th>
+          <th scope="col">Производитель</th>
+          <th scope="col">Приход</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            @foreach(var item in Model){
+            <tr>
+              <th scope="row">@item.Id</th>
+              <td>@item.NameOfDrug</td>
+              <td>@item.ComingPrice</td>
+              <td>@item.Counts</td>
+              <td>@item.Creator</td>
+              <td>@if(item.ComingDrug != null){<span><a asp-controller="Drugs" asp-action="GetComingDrug" asp-route-Id="@item.ComingDrug.ID">@item.ComingDrug.NameOfComing</a></span>}</td>
+            </tr>
+            }
+         
+                            
+      </tbody>
+</table>
+  </div>
+
+  </div>
+</div>
+</div>
+</section>

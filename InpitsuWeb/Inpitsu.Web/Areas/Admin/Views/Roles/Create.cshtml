@@ -1,0 +1,23 @@
+﻿<div>
+    <h3>Создание Задачи</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+      <form role="form" class="text-start" method="post">
+          <div class="input-group input-group-outline my-3 focused is-focused">
+               <label class="form-label">Role:</label>
+               <input type="text" class="form-control"  name="Name">
+          </div>
+          <div style="display: flex;">
+               <div style="width: 45%; margin: 5rem">
+                    <button class="btn bg-gradient-success w-100 toast-btn" asp-controller="Roles" asp-action="Create" >Сохранить</button>
+               </div>
+               <div style="width: 45%; margin: 5rem">
+                    <button class="btn bg-gradient-danger w-100 toast-btn" asp-controller="Roles" asp-action="Cansel" >Отмена</button>
+               </div>
+          </div>
+      </form>
+  </div>
+</div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Inpitsu.Data.Models.ReleaseDrugs>
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Продажи</h3>
+    <div class="card">
+  <div class="card-body">
+      <div style="display:flex; width:100%; justify-content: space-between;">
+          
+          <div style="width: 20%;" class="mb-2"><a class="btn bg-gradient-success w-100 mb-0 toast-btn" asp-controller="Drugs" asp-action="CreateReleaseDrugs">Добавить</a></div>
+      </div>
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d; position: sticky; top:-1px; z-index:500;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Наименование</th>
+          <th scope="col">Действия</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach(var item in Model){
+        <tr>
+          <th scope="row">@item.Id</th>
+          <td>@item.Name</td>
+         
+          <td><a class="btn btn-link text-dark px-3 mb-0" asp-controller="Drugs" asp-action="GetReleaseDrug" asp-route-Id="@item.Id">Просмотр</a></td>
+        </tr>
+        }
+      </tbody>
+</table>
+  </div>
+    
+  </div>
+  </div>
+  </div>
+  </section>

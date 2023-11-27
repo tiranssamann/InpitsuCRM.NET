@@ -1,0 +1,91 @@
+﻿@model Inpitsu.Data.DtoObjects.ContragentDto
+@{
+    ViewData["Title"] = "Информация о контрагенте";
+}
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3>Клиент @Model.Name</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+          <div class="tableElement" style="width: 100%;  overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d;position: sticky; top:-1px; z-index:500;">
+              <tr>
+                  <th><label class="form-label">Наименование:</label></th>
+                  <td><input type="text" class="form-control"  name="Name" value="@Model.Name" readonly></td>
+              </tr>
+               <tr>
+                  <th><label class="form-label">Описание:</label></th>
+                  <td><input type="text" class="form-control"  name="Description" value="@Model.Description" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Контакт:</label></th>
+                  <td><input type="text" class="form-control"  name="Contact" value="@Model.Contact" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Пинфл:</label></th>
+                  <td><input type="text" class="form-control"  name="Pin" value="@Model.Pin" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Инн:</label></th>
+                  <td><input type="text" class="form-control"  name="Inn" value="@Model.Inn" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Email:</label></th>
+                  <td><input type="email" class="form-control"  name="Email" value="@Model.Email" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Адрес:</label></th>
+                  <td><input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" readonly><div id="map"></div></td>
+                  
+              </tr>
+              <tr>
+                  <th><label class="form-label">Действия:</label></th>
+                  <td>
+                      <a class="btn bg-gradient-success toast-btn" asp-controller="Contragents" asp-action="Edit" asp-route-id="@Model.Id" >Редактировать</a>
+                      <a class="btn bg-gradient-danger toast-btn" asp-controller="Contragents" asp-action="Cansel" >Назад</a>
+                  </td>
+                  
+              </tr>
+          </table>
+        <style>
+        #map {
+            width: 80rem;
+            height: 20rem;
+        }
+        </style>
+          
+          </div>
+  </div>
+</div>
+</div>
+</section>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=3fad1fab-49f9-47b1-ac78-90203a05b988" ></script>
+<script>
+
+ymaps.ready(init);
+function init(){
+
+var myMap;
+ymaps.geocode($('#Address').val()).then(function (res) {
+    myMap = new ymaps.Map('map', {
+        center: res.geoObjects.get(0).geometry.getCoordinates(),
+        zoom : 15
+    });
+    myMap.geoObjects.add(res.geoObjects.get(0));
+});     
+}
+</script>

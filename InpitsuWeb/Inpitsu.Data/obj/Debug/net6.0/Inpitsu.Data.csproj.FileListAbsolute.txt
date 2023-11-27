@@ -1,0 +1,28 @@
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.deps.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.runtimeconfig.json
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\ref\Inpitsu.Data.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.csproj.AssemblyReference.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.AssemblyInfoInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.AssemblyInfo.cs
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.csproj.CoreCompileInputs.cache
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\ref\Inpitsu.Data.dll
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\a.zakarin\Desktop\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.genruntimeconfig.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.deps.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.runtimeconfig.json
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\bin\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.csproj.AssemblyReference.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.AssemblyInfoInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.AssemblyInfo.cs
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.csproj.CoreCompileInputs.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\refint\Inpitsu.Data.dll
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.pdb
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\Inpitsu.Data.genruntimeconfig.cache
+C:\Users\tiran\OneDrive\Рабочий стол\CRM\InpitsuWeb\Inpitsu.Data\obj\Debug\net6.0\ref\Inpitsu.Data.dll

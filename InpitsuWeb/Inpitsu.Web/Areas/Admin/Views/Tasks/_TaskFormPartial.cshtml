@@ -1,0 +1,51 @@
+﻿@model Inpitsu.Web.ViewModels.TaskFormModel
+
+<table class="tasks-entry form">
+    <tr>
+        <th>
+            <label asp-for="Title" >Название</label>
+        </th>
+        <td>
+            <input asp-for="Title" class="form-control" placeholder="Название...">
+            <span asp-validation-for="Title" class="small text-danger"></span>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <label asp-for="Description">Описание задачи</label>
+        </th>
+        <td>
+            <textarea asp-for="Description" class="form-control" placeholder="Описание задачи..."></textarea>
+            <span asp-validation-for="Description" class="small text-danger"></span>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <label asp-for="EmployeeId">Поставить задачу</label>
+        </th>
+        <td>
+            <select asp-for="EmployeeId" class="form-control">
+                @foreach (var tag in Model.Employees)
+                {
+                    <option value="@tag.Id">@tag.UserName</option>
+                }
+            </select>
+            <span asp-validation-for="EmployeeId" class="small text-danger"></span>
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <label asp-for="BoardId">Борда</label>
+        </th>
+        <td>
+            <select asp-for="BoardId" class="form-control">
+                @foreach (var tag in Model.Boards)
+                {
+                    <option value="@tag.Id">@tag.Name</option>
+                }
+            </select>
+            <span asp-validation-for="BoardId" class="small text-danger"></span>
+        </td>
+    </tr>
+
+</table>

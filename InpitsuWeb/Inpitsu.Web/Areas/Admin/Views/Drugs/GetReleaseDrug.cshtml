@@ -1,0 +1,100 @@
+﻿@model Inpitsu.Data.Models.ReleaseDrugs
+
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Реализация товара @Model.Name</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+      <form role="form" class="text-start" method="post">
+          <div class="tableElement" style="width: 100%;  overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d;position: sticky; top:-1px; z-index:500;">
+              <tr>
+                  <th><label class="form-label">Наименование:</label></th>
+                  <td><input type="text" class="form-control"  name="Name" value="@Model.Name" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Контрагент:</label></th>
+                  <td><input type="text" class="form-control"  value="@Model.Contragent.Name" readonly></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Адрес:</label></th>
+                  <td><input type="text" class="form-control" id="Address" name="Address" value="@Model.Contragent.Address" readonly><div id="map"></div></td>
+              </tr>
+          </table>
+               <input type="hidden" class="form-control"  name="Id" value="@Model.Id" readonly>
+               <input type="hidden" class="form-control"  name="ContragentId" value="@Model.ContragentId" readonly>
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d; position: sticky; top:-1px; z-index:500;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Наименование</th>
+          <th scope="col">Цена</th>
+          <th scope="col">Количество</th>
+          <th scope="col">Производитель</th>
+        </tr>
+      </thead>
+      <tbody>
+         @if(Model.DrugList != null)
+         {
+            
+            @foreach(var item in Model.DrugList){
+            <tr>
+              <th scope="row">@item.Id</th>
+              <td>@item.NameOfDrug</td>
+              <td>@item.ComingPrice</td>
+              <td>@item.Counts</td>
+              <td>@item.Creator</td>
+            </tr>
+            }
+         }
+                            
+      </tbody>
+</table>
+
+  </div>
+  <style>
+        #map {
+            width: 80rem;
+            height: 20rem;
+        }
+        </style>
+ 
+  
+               
+      </form>
+  </div>
+</div>
+</div>
+</section>
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=3fad1fab-49f9-47b1-ac78-90203a05b988" ></script>
+<script>
+
+ymaps.ready(init);
+function init(){
+
+var myMap;
+ymaps.geocode($('#Address').val()).then(function (res) {
+    myMap = new ymaps.Map('map', {
+        center: res.geoObjects.get(0).geometry.getCoordinates(),
+        zoom : 15
+    });
+    myMap.geoObjects.add(res.geoObjects.get(0));
+});     
+}
+</script>

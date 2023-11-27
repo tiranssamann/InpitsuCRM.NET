@@ -1,0 +1,145 @@
+﻿@model Inpitsu.Data.DtoObjects.ContragentDto
+@{
+    ViewData["Title"] = "Информация о контрагенте";
+}
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3>Изменение Клиента @Model.Name</h3>
+
+<div class="card">
+  <div class="card-body">
+      <form role="form" class="text-start" method="post">
+          <div class="tableElement" style="width: 100%;  overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d;position: sticky; top:-1px; z-index:500;">
+              <tr>
+                  <th><label class="form-label">Наименование:</label></th>
+                  <td><input type="text" class="form-control"  name="Name" value="@Model.Name" >
+                    <input type="hidden" class="form-control"  name="Id" value="@Model.Id" >    
+                  </td>
+              </tr>
+               <tr>
+                  <th><label class="form-label">Описание:</label></th>
+                  <td><input type="text" class="form-control"  name="Description" value="@Model.Description" ></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Контакт:</label></th>
+                  <td><input type="text" class="form-control"  name="Contact" value="@Model.Contact" ></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Пинфл:</label></th>
+                  <td><input type="text" class="form-control"  name="Pin" value="@Model.Pin" ></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Инн:</label></th>
+                  <td><input type="text" class="form-control"  name="Inn" value="@Model.Inn" ></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Email:</label></th>
+                  <td><input type="email" class="form-control"  name="Email" value="@Model.Email" ></td>
+              </tr>
+              <tr>
+                  <th><label class="form-label">Адрес:</label></th>
+                  <td><input type="text" class="form-control" id="Address" name="Address" value="@Model.Address" ><div id="map"></div></td>
+                  
+              </tr>
+              <tr>
+                  <th><label class="form-label">Действия:</label></th>
+                  <td>
+                      <button class="btn bg-gradient-success toast-btn" asp-controller="Contragents" asp-action="Edit"  >Готово</button>
+                      <button class="btn bg-gradient-danger toast-btn" asp-controller="Contragents" asp-action="Cansel" >Назад</button>
+                  </td>
+                  
+              </tr>
+          </table>
+        <style>
+        #map {
+            width: 80rem;
+            height: 20rem;
+        }
+        </style>
+          </form>
+          </div>
+  </div>
+</div>
+</div>
+</section>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=3fad1fab-49f9-47b1-ac78-90203a05b988" ></script>
+<script>
+
+ymaps.ready(init);
+
+function init() {
+    var myPlacemark,
+        myMap = new ymaps.Map('map', {
+            center: [41.2646500, 69.2162700],
+            zoom: 15
+        }, {
+            searchControlProvider: 'yandex#search'
+        });
+
+    // Слушаем клик на карте.
+    myMap.events.add('click', function (e) {
+        var coords = e.get('coords');
+
+        // Если метка уже создана – просто передвигаем ее.
+        if (myPlacemark) {
+            myPlacemark.geometry.setCoordinates(coords);
+        }
+        // Если нет – создаем.
+        else {
+            myPlacemark = createPlacemark(coords);
+            myMap.geoObjects.add(myPlacemark);
+            // Слушаем событие окончания перетаскивания на метке.
+            myPlacemark.events.add('dragend', function () {
+                getAddress(myPlacemark.geometry.getCoordinates());
+            });
+        }
+        getAddress(coords);
+    });
+
+    // Создание метки.
+    function createPlacemark(coords) {
+        return new ymaps.Placemark(coords, {
+            iconCaption: 'поиск...'
+        }, {
+            preset: 'islands#violetDotIconWithCaption',
+            draggable: true
+        });
+    }
+
+    // Определяем адрес по координатам (обратное геокодирование).
+    function getAddress(coords) {
+        myPlacemark.properties.set('iconCaption', 'поиск...');
+        ymaps.geocode(coords).then(function (res) {
+            var firstGeoObject = res.geoObjects.get(0);
+
+            myPlacemark.properties
+                .set({
+                    // Формируем строку с данными об объекте.
+                    iconCaption: [
+                        // Название населенного пункта или вышестоящее административно-территориальное образование.
+                        firstGeoObject.getLocalities().length ? firstGeoObject.getLocalities() : firstGeoObject.getAdministrativeAreas(),
+                        // Получаем путь до топонима, если метод вернул null, запрашиваем наименование здания.
+                        firstGeoObject.getThoroughfare() || firstGeoObject.getPremise()
+                    ].filter(Boolean).join(', '),
+                    // В качестве контента балуна задаем строку с адресом объекта.
+                    balloonContent: firstGeoObject.getAddressLine()
+                    
+                });
+                $("#Address").val(firstGeoObject.getAddressLine())
+        });
+    }
+}
+</script>

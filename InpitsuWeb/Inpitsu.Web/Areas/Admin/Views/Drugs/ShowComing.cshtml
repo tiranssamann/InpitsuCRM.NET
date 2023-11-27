@@ -1,0 +1,69 @@
+﻿@model Inpitsu.Web.ViewModels.ComingDrugCreate
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3> Приход @Model.NameOfComing</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+      <form role="form" class="text-start" method="post">
+          <div class="input-group input-group-outline my-3 focused is-focused">
+               <label class="form-label">Название:</label>
+               <input type="text" class="form-control"  name="NameOfComing" value="@Model.NameOfComing" readonly>
+               <input type="hidden" class="form-control"  name="Id" value="@Model.Id" readonly>
+          </div>
+          <div style="display:flex; width:100%; justify-content: space-between;">
+          
+          <div style="width: 20%;" class="mb-2"><button class="btn bg-gradient-success w-100 mb-0 toast-btn" asp-controller="Drugs" asp-action="ShowComing">Добавить товар</button></div>
+      </div>
+  <div class="tableElement" style="width: 100%; height: 30em; overflow: auto;">      
+      <table class="table table-bordered table-hover m-0">
+      <thead style="background-color:#6c757d; position: sticky; top:-1px; z-index:500;">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Наименование</th>
+          <th scope="col">Цена</th>
+          <th scope="col">Количество</th>
+          <th scope="col">Производитель</th>
+        </tr>
+      </thead>
+      <tbody>
+         @if(Model.Drugss != null)
+         {
+             for(int c = 0; c < Model.Drugss.Count; c++)
+            {      
+                <input type="hidden" name="Drugss[@c].FirstProperty" value="@Model.Drugss[@c].Id"/>
+            }
+            @foreach(var item in Model.Drugss){
+            <tr>
+              <th scope="row">@item.Id</th>
+              <td>@item.NameOfDrug</td>
+              <td>@item.ComingPrice</td>
+              <td>@item.Counts</td>
+              <td>@item.Creator</td>
+            </tr>
+            }
+         }
+                            
+      </tbody>
+</table>
+  </div>
+          
+  
+               
+      </form>
+  </div>
+</div>
+</div>
+</section>

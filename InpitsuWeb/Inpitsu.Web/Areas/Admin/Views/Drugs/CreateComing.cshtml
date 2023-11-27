@@ -1,0 +1,44 @@
+﻿@model Inpitsu.Web.ViewModels.ComingDrugCreate
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+    <h3>Создание Прихода</h3>
+
+<div class="card">
+  <div class="card-body">
+      
+      <form role="form" class="text-start" method="post">
+          <div class="input-group input-group-outline my-3 focused is-focused">
+               <label class="form-label">Название:</label>
+               <input type="text" class="form-control"  name="NameOfComing">
+          </div>
+          <div class="input-group input-group-outline my-3 focused is-focused">
+              <label class="form-label">Контрагент:</label>
+              <select name="ContragentId" class="form-control">
+                @foreach (var tag in Model.Contragents)
+                {
+                    <option value="@tag.Id">@tag.Name</option>
+                }
+                </select>
+          </div>
+          
+          <div style="display: flex;">
+               <div style="width: 45%; margin: 5rem">
+                    <button class="btn bg-gradient-success w-100 toast-btn" asp-controller="Drugs" asp-action="CreateComing" >Далее</button>
+               </div>
+          </div>
+      </form>
+  </div>
+</div>
+</div>
+</section>

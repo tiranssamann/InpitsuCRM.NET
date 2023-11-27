@@ -1,0 +1,39 @@
+﻿@using Inpitsu.Data.DtoObjects
+@using Microsoft.AspNetCore.Identity
+@model ChangeRoleViewModelDto;
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0">Dashboard v2</h1>
+            </div><!-- /.col -->
+            <div class="col-sm-6">
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<section class="content">
+    <div class="container-fluid">
+        <h3>Редактирование роли Пользователя @Model.UserEmail</h3>
+
+        <div class="card">
+            <div class="card-body">
+                <form asp-action="EditRole" method="post">
+                    <input type="hidden" name="userId" value="@Model.UserId" />
+                    <div class="form-group">
+                        @foreach (IdentityRole role in Model.AllRoles)
+                        {
+                            <div class="form-check form-switch" style="display: flex;
+                ">
+                                <input class="form-check-input input_@Model.UserId" id="flexSwitchCheckDefault" type="checkbox" name="roles" value="@role.Name"
+                                   @(Model.UserRoles.Contains(role.Name) ? "checked=\"checked\"" : "") /> <span style="margin-left: 20px;">@role.Name <br /></span>
+                            </div>
+                        }
+                    </div>
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,66 @@
+﻿@model Inpitsu.Web.ViewModels.TaskDetailsViewModel
+
+@{
+    ViewBag.Title = "View Task Details";
+}
+
+<link href="~/taskswroot/css/style.css" rel="stylesheet" type="text/css" />
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<table class="task-details">
+    <tr class="task-id">
+        <th>ID</th>
+        <td>@Model.Id</td>
+    </tr>
+    <tr class="title">
+        <th>Название</th>
+        <td>@Model.Title</td>
+    </tr>
+    <tr class="description">
+        <th>Описание задачи</th>
+        <td>@Model.Description</td>
+    </tr>
+    <tr class="board">
+        <th>Статус</th>
+        <td>@Model.Board</td>
+    </tr>
+    <tr class="board">
+        <th>Поставил задачу</th>
+        <td>@Model.Owner</td>
+    </tr>
+    <tr class="board">
+        <th>Ответственный</th>
+        <td>@Model.Employee</td>
+    </tr>
+    <tr class="dateCreated">
+        <th>Дата создания</th>
+        <td>@Model.CreatedOn</td>
+    </tr>
+    @{
+        if (Model.Owner == this.User.Identity.Name)
+        {
+            <tr class="actions">
+                <th>Действия</th>
+
+                <td>
+                    <a asp-controller="Tasks" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Редактировать</a>
+                    <a asp-controller="Tasks" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-secondary">Удалить</a>
+                </td>
+            </tr>
+        }
+        else if(Model.Employee == this.User.Identity.Name)
+        {
+            <tr class="actions">
+                <th>Действия</th>
+
+                <td>
+                    <a asp-controller="Tasks" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary">Редактировать</a>
+
+                </td>
+            </tr>
+        }
+    }
+    
+</table>
